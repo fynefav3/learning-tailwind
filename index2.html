@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Tailwind</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+    </head>
+    <body class="bg-gray-300 font-sans flex flex-col items-center">
+        
+    <header class="bg-blue-900 w-full px-4 py-3 flex justify-center border-b-4 border-blue-500">
+        <div class="max-w-4xl w-full">
+        <div class="flex items-center justify-between" >
+            <img class="h-12 w -12 fill-current" src="logo2.png" alt="Logo">
+            <button type="button" class="text-black hover:text-gray-700 sm:hidden">
+                <svg class="fill-current"viewBox="0 0 100 80" width="40" height="40">
+                    <rect width="100" height="20"></rect>
+                    <rect y="30" width="100" height="20"></rect>
+                    <rect y="60" width="100" height="20"></rect>
+                  </svg>
+            </button>
+        </div>
+        <div class="my-4">
+            <h1 class="text-2xl text-indigo-100">Let's learn Tailwind CSS together!</h1>
+            <P class="text-sm text-indigo-200">Tailwind is the fastest growing utility-first CSS.</P>
+            <p class="text-sm text-indigo-200">It let's you build completely custom design without ever leaving your HTML. </P>
+       <div class="relative mt-4 flex">
+        <div>
+        <a href="#" class="bg-blue-500 text-indigo-100 
+        font-bold px-4 py-2 mt-2 hover:bg-green-700 rounded-full text-xs UPPERCASE">Learn with me</a>
+      </div>
+      <div class="absolute right-0 bg-white flex justify-center items-center p-5 border-4 border-blue-500 rounded-full">
+        <img class="w-16 h-16" src="tailwind logo.jpg">
+      </div>
+     </div>
+        </div>
+        </div>
+     </header>
+        <main class="mt-16 w-full flex-col items center">
+            <di class="max-w-4xl mx-4">
+                <h2 class="pb-2 border-b border-indigo-600 text-xl font-bold text-indigo-700">How it Works</h2>
+                <p class="text-left text-small mt-4 text-gray-700">Tailwind is designed for rapid development of modern applications.
+                    Every Tailwind utility also comes with responsive variants, making it
+            extremely easy to build responsive interfaces 
+            without resorting to custom CSS. Tailwind includes an expertly crafted set of defaults out-of-the-box,
+             but literally everything can be customized from the color palette to the spacing scale to the box shadows to
+             the mouse cursor</p>
+            <h2 class="mt-8 pb-2 border-b border-indigo-600 text-xl 
+            font-bold text-indigo-700 text-center UPPERCASE">Advantages</h2>
+            <div class="flex flex-col sm:flex-row sm:mx-2">
+                <div class="mt-4 sm:w-1/3">
+                    <div class="bg-white h-full p-8 border-b-4 border-blue-500 rounded-lg 
+                    flex flex-col items-center sm:mx-2 sm:p-3 md:p-8">
+                        <div class="bg-gray-200 text-indigo-700 w-16 rounded-full p-2">
+                            <svg class="h-12 w-12 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                                <path d="M18.9 19.7l-6.9 2-6.9-2L3.7 3h16.7c-.5 5 .6-1 11.1-1.5 16.7zM19.4
+                                4H4.8li.3 14.9 5.9 1.7 5.9-1.7L19.4 4zM8.1 13.8h2V15l2 .7 2-.7.1-2,2H9.9l-.1-2h4.5l.1-2H7.7l-.1-2h9l-2 
+                                3 .9-.4 5 .8-3.9 1.3-3.9-1.3-.1-2.7z" fill-rule="evenodd" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                            <div class="mt-4 font-bold">No Custom CSS</div>
+                            <div class="text-center mt-2 text-gray-600 text-sm">Tailwind applications will leave your project 
+                                free of custom CSS, Everything from colors to spacing sizes and fonts can be customized really easily using the config file. </div>
+                    </div>
+                </div>
+                <div class="mt-4 sm:w-1/3">
+                    <div class="bg-white p-8 h-full border-b-4 border-blue-500 rounded-lg 
+                    flex flex-col items-center sm:mx-2 sm:p-3 md:p-8">
+                        <div class="bg-gray-200 text-indigo-700 w-16 rounded-full p-2">
+                            <svg class="h-12 w-12 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                                <path d="M18.9 19.7l-6.9 2-6.9-2L3.7 3h16.7c-.5 5 .6-1 11.1-1.5 16.7zM19.4
+                                4H4.8li.3 14.9 5.9 1.7 5.9-1.7L19.4 4zM8.1 13.8h2V15l2 .7 2-.7.1-2,2H9.9l-.1-2h4.5l.1-2H7.7l-.1-2h9l-2 
+                                3 .9-.4 5 .8-3.9 1.3-3.9-1.3-.1-2.7z" fill-rule="evenodd" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                            <div class="mt-4 font-bold">No Naming Things</div>
+                            <div class="text-center mt-2 text-gray-600 text-sm">
+                                Tailwind solves all those problems by providing utility classes that can be used 99% of the time. The only time you’ll 
+                                have to name things is when you extract a component, which is pretty rare. </div>
+                    </div>
+                </div>
+                <div class="mt-4 sm:w-1/3">
+                    <div class="bg-white h-full p-8 border-b-4 border-blue-500 rounded-lg 
+                    flex flex-col items-center sm:mx-2 sm:p-3 md:p-8">
+                        <div class="bg-gray-200 text-indigo-700 w-16 rounded-full p-2">
+                            <svg class="h-12 w-12 fill-current" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24">
+                                <path d="M18.9 19.7l-6.9 2-6.9-2L3.7 3h16.7c-.5 5 .6-1 11.1-1.5 16.7zM19.4
+                                4H4.8li.3 14.9 5.9 1.7 5.9-1.7L19.4 4zM8.1 13.8h2V15l2 .7 2-.7.1-2,2H9.9l-.1-2h4.5l.1-2H7.7l-.1-2h9l-2 
+                                3 .9-.4 5 .8-3.9 1.3-3.9-1.3-.1-2.7z" fill-rule="evenodd" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                            <div class="mt-4 font-bold">No Context Switching</div>
+                            <div class="text-center mt-2 text-gray-600 text-sm">Since the framework provides almost everything 
+                                you need out of the box, you rarely leave your HTML (or other templating language) while building out a design.
+                                 </div>
+                    </div>
+                </div>
+            </div>
+
+            </div> 
+        <div class="bg-blue-800 py-12 mt-12 w-full flex flex-col items-center
+         border-t-2 border-blue-500 capitalize">
+            <h2 class="font-bold text-xl text-gray-400">Sign up and get a free Pdf book</h2>
+        <form class="max-w-xl w-full text-gray-200 mt-4 px-8 md:px-0"action="#" method="post">
+            <div class="flex flex-col md:flex-row md:mx-2">
+                <label for="first_name" class="sr-only">First Name</label>
+                <input class="bg-gray-300 mt-4 border border-blue-500
+                rounded-lg py-2 px-4 w-full md:mx-2"type="text" placeholder="First Name">
+
+                <label for="last_name" class="sr-only">Last Name</label>
+                <input class="bg-gray-300 mt-4 border border-blue-500
+                rounded-lg py-2 px-4 w-full md:mx-2"type="text" placeholder="Last Name">
+            </div>
+
+            <div class="flex flex-col md:flex-row md:mx-2">
+                <label for="email_address" class="sr-only">Email address</label>
+                <input class="bg-gray-300 mt-4 border border-blue-500
+                rounded-lg py-2 px-4 w-full md:mx-2"type="text" placeholder="Email address">
+            </div>
+            <div class="flex flex-col md:flex-row md:mx-2">
+                <button class="bg-blue-600 text-sm mt-4  hover:bg-green-800 rounded-lg py-2 px-4 md:mx-2">
+                    <a href="https://coderstape.com/learn-tailwind-pdf"></a>Sign up</button>
+            </div>
+        </form>
+            </div>
+        </main>
+            <footer class="bg-blue-800 text-center w-full pb-2">
+                <p class="text-xs font-light text-black">Copyright &#169 2022 Favour Ihuoma </p>
+             </footer>
+
+            </body>
+      
+   
